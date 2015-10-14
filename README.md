@@ -4,7 +4,7 @@ Revenue is a tool that gives you a quick summary of your revenue from [Harvest](
 
 # Install
 
-    npm install revenue
+    npm install -g revenue
 
 # Usage
 

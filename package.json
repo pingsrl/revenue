@@ -1,19 +1,20 @@
 {
   "name": "revenue",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "get revenue information from harvest",
   "main": "index.js",
   "bin": {
     "revenue": "index.js"
   },
   "author": "G[3z]",
   "license": "MIT",
-  "repository": "https://github.com/pingsrl/revenue.git",
+  "repository": "https://github.com/pingsrl/revenue",
   "dependencies": {
     "colors": "^1.1.2",
     "commander": "^2.9.0",
-    "harvest": "https://github.com/G3z/node-harvest.git#patch-1",
+    "harvest": "https://github.com/G3z/node-harvest.git#invoices_qs",
     "numeral": "^1.5.3",
-    "prompt": "^0.2.14"
+    "prompt": "^0.2.14",
+    "qs": "^5.2.0"
   }
 }

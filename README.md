@@ -5,6 +5,21 @@ Revenue is a tool that gives you a quick summary of your revenue from [Harvest](
 # Install
 
     npm install -g revenue
+    
+# Help
+
+    Usage: revenue [options]
+
+    Options:
+
+      -h, --help               output usage information
+      -V, --version            output the version number
+      -y, --year [year]        specify a year different than 2015
+      -f, --force              force update
+      -n, --net                net only
+      -g, --gross              gross only
+      -q, --quarter [quarter]  specify a quarter (1,2,3,4) or just -q for all
+
 
 # Usage
 

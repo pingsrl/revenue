@@ -47,9 +47,9 @@ Revenue is a tool that gives you a quick summary of your revenue from [Harvest](
 
 # TODO
 
-    * [x] cache
-    * [ ] locales
-    * [x] quarters
-    * [ ] comparisons
-    * [ ] graphs
-    * [ ] estimates
+* [x] cache
+* [ ] locales
+* [x] quarters
+* [ ] comparisons
+* [ ] graphs
+* [ ] estimates

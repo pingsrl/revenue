@@ -1,8 +1,12 @@
 {
   "name": "revenue",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "get revenue information from harvest",
   "main": "index.js",
+  "scripts":{
+    "start": "node index.js",
+    "debug": "DEBUG=* node index.js"
+  },
   "bin": {
     "revenue": "index.js"
   },
@@ -12,9 +16,14 @@
   "dependencies": {
     "colors": "^1.1.2",
     "commander": "^2.9.0",
+    "debug": "^2.2.0",
     "harvest": "https://github.com/G3z/node-harvest.git#invoices_qs",
+    "lowdb": "^0.10.2",
+    "moment": "^2.10.6",
     "numeral": "^1.5.3",
     "prompt": "^0.2.14",
-    "qs": "^5.2.0"
-  }
+    "qs": "^5.2.0",
+    "update-notifier": "^0.5.0"
+  },
+  "engine": "node >= 4.2.0"
 }

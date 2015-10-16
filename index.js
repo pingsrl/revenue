@@ -9,7 +9,6 @@ const year = new Date().getFullYear();
 
 program
   .version(pkg.version)
-  .command('revenue')
   .option('-y, --year [year]', 'specify a year different than ' + year, year)
   .option('-n, --net', 'net only')
   .option('-g, --gross', 'gross only')

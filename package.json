@@ -1,14 +1,14 @@
 {
   "name": "revenue",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "get revenue information from harvest",
-  "main": "index.js",
+  "main": "revenue.js",
   "scripts":{
-    "start": "node index.js",
-    "debug": "DEBUG=* node index.js"
+    "start": "node revenue.js",
+    "debug": "DEBUG=* node revenue.js"
   },
   "bin": {
-    "revenue": "index.js"
+    "revenue": "revenue.js"
   },
   "author": "G[3z]",
   "license": "MIT",

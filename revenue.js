@@ -1,19 +1,19 @@
 #! /usr/bin/env node
-var program = require('commander');
 
+// update notifier
 var updateNotifier = require('update-notifier');
 var pkg = require('./package.json');
 updateNotifier({pkg: pkg, updateCheckInterval:1}).notify();
 
 const year = new Date().getFullYear();
 
+// CLI
+var program = require('commander');
 program
   .version(pkg.version)
-  .option('-y, --year [year]', 'specify a year different than ' + year, year)
   .option('-f, --force', 'force update')
-  .option('-n, --net', 'net only')
-  .option('-g, --gross', 'gross only')
-  .option('-q, --quarter [quarter]', 'specify a quarter (1,2,3,4) or just -q for all', /^(1|2|3|4)$/i)
+  .option('-y, --year [year]', 'specify a year different than ' + year, year)
   .parse(process.argv);
 
+// actual code
 require('./lib/invoices')(program);

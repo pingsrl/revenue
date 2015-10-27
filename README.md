@@ -2,6 +2,8 @@
 
 Revenue is a dashboard that gives you a quick summary of your revenue from [Harvest](https://www.getharvest.com/)
 
+![ScreenShot](misc/screen.png)
+
 # Install
 
     npm install -g revenue

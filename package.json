@@ -5,7 +5,7 @@
   "main": "revenue.js",
   "scripts": {
     "start": "node revenue.js",
-    "debug": "DEBUG=* node revenue.js"
+    "debug": "DEBUG=* nodemon revenue.js"
   },
   "bin": {
     "revenue": "revenue.js"

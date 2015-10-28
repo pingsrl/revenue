@@ -1,11 +1,11 @@
 {
   "name": "revenue",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "Revenue Dashboard from harvest",
   "main": "revenue.js",
   "scripts": {
     "start": "node revenue.js",
-    "debug": "DEBUG=* node revenue.js"
+    "debug": "DEBUG=* nodemon revenue.js"
   },
   "bin": {
     "revenue": "revenue.js"
@@ -14,8 +14,10 @@
   "license": "MIT",
   "repository": "https://github.com/pingsrl/revenue",
   "dependencies": {
+    "async": "^1.5.0",
     "blessed": "^0.1.81",
     "blessed-contrib": "^2.4.1",
+    "cli-spinner": "^0.2.1",
     "colors": "^1.1.2",
     "commander": "^2.9.0",
     "debug": "^2.2.0",

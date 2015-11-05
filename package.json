@@ -1,6 +1,6 @@
 {
   "name": "revenue",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Revenue Dashboard from harvest",
   "main": "revenue.js",
   "scripts": {
@@ -14,20 +14,16 @@
   "license": "MIT",
   "repository": "https://github.com/pingsrl/revenue",
   "dependencies": {
-    "async": "^1.5.0",
     "blessed": "^0.1.81",
     "blessed-contrib": "^2.4.1",
     "cli-spinner": "^0.2.1",
-    "colors": "^1.1.2",
     "commander": "^2.9.0",
     "debug": "^2.2.0",
-    "harvest": "https://github.com/G3z/node-harvest.git#invoices_qs",
     "lodash": "^3.10.1",
-    "lowdb": "^0.10.2",
     "moment": "^2.10.6",
     "numeral": "^1.5.3",
     "prompt": "^0.2.14",
-    "qs": "^5.2.0",
+    "revenue-core": "^1.0.0",
     "update-notifier": "^0.5.0"
   },
   "engine": "node >= 4.2.0"

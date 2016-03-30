@@ -23,8 +23,8 @@ Revenue is a dashboard that gives you a quick summary of your revenue from [Harv
 # TODO
 
 * [x] cache
-* [ ] locales
 * [x] quarters
-* [ ] comparisons
 * [x] graphs
+* [ ] locales
+* [ ] comparisons
 * [ ] estimates

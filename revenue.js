@@ -1,9 +1,9 @@
 #! /usr/bin/env node
 
 // update notifier
-var program = require('commander');
 var updateNotifier = require('update-notifier');
-var invoices = require('revenue-core');
+var program = require('commander');
+var revenue = require('revenue-core');
 
 // Update notification
 var pkg = require('./package.json');
@@ -29,7 +29,7 @@ var visualizer = require('./lib/visualizer');
 
 spinner.start();
 // Getting invoices
-invoices(program, configurator, (db, lastUpdate, options) => {
+revenue(program, configurator, (db, lastUpdate, options) => {
   spinner.stop(true);
   visualizer(db, lastUpdate, options);
 });

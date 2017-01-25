@@ -1120,9 +1120,9 @@ revalidator@0.1.x:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/revalidator/-/revalidator-0.1.8.tgz#fece61bfa0c1b52a206bd6b18198184bdd523a3b"
 
-revenue-core@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/revenue-core/-/revenue-core-1.0.3.tgz#269e2d2837880d961fe98fde4ab9b7ff08e20e9d"
+revenue-core@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/revenue-core/-/revenue-core-1.0.6.tgz#0e3c48af2c79cb1fac27b28e052ca02e8c42c494"
   dependencies:
     async "^2.1.4"
     debug "^2.2.0"

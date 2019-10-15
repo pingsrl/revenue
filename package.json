@@ -1,30 +1,30 @@
 {
-  "name": "revenue",
-  "version": "2.1.5",
-  "description": "Revenue Dashboard from harvest - CLI",
-  "main": "revenue.js",
-  "scripts": {
-    "start": "node revenue.js",
-    "debug": "DEBUG=* nodemon revenue.js"
-  },
-  "bin": {
-    "revenue": "revenue.js"
-  },
-  "author": "G[3z]",
-  "license": "MIT",
-  "repository": "https://github.com/pingsrl/revenue",
-  "dependencies": {
-    "blessed": "^0.1.81",
-    "blessed-contrib": "^4.6.5",
-    "cli-spinner": "^0.2.5",
-    "commander": "^2.9.0",
-    "debug": "^2.6.0",
-    "lodash": "^4.17.4",
-    "moment": "^2.17.1",
-    "numeral": "^2.0.4",
-    "prompt": "^1.0.0",
-    "revenue-core": "^1.0.6",
-    "update-notifier": "^1.0.3"
-  },
-  "engine": "node >= 4.2.0"
+	"name": "revenue",
+	"version": "2.1.6",
+	"description": "Revenue Dashboard from harvest - CLI",
+	"main": "revenue.js",
+	"scripts": {
+		"start": "node revenue.js",
+		"debug": "DEBUG=* nodemon revenue.js"
+	},
+	"bin": {
+		"revenue": "revenue.js"
+	},
+	"author": "G[3z]",
+	"license": "MIT",
+	"repository": "https://github.com/pingsrl/revenue",
+	"dependencies": {
+		"blessed": "^0.1.81",
+		"blessed-contrib": "^4.8.18",
+		"cli-spinner": "^0.2.10",
+		"commander": "^3.0.2",
+		"debug": "^4.1.1",
+		"lodash": "^4.17.15",
+		"moment": "^2.24.0",
+		"numeral": "^2.0.6",
+		"prompt": "^1.0.0",
+		"revenue-core": "^1.1.2",
+		"update-notifier": "^3.0.1"
+	},
+	"engine": "node >= 4.2.0"
 }

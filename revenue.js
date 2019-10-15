@@ -7,7 +7,7 @@ var revenue = require('revenue-core');
 
 // Update notification
 var pkg = require('./package.json');
-updateNotifier({pkg: pkg, updateCheckInterval:1}).notify();
+updateNotifier({ pkg: pkg, updateCheckInterval: 1 }).notify();
 
 // Setting up spinner
 var Spinner = require('cli-spinner').Spinner;
@@ -19,10 +19,10 @@ const year = new Date().getFullYear();
 
 // CLI interface
 program
-  .version(pkg.version)
-  .option('-f, --force', 'force update')
-  .option('-y, --year [year]', 'specify a year different than ' + year, year)
-  .parse(process.argv);
+	.version(pkg.version)
+	.option('-f, --force', 'force update')
+	.option('-y, --year [year]', 'specify a year different than ' + year, year)
+	.parse(process.argv);
 
 var configurator = require('./lib/configator');
 var visualizer = require('./lib/visualizer');
@@ -30,6 +30,6 @@ var visualizer = require('./lib/visualizer');
 spinner.start();
 // Getting invoices
 revenue(program, configurator, (db, lastUpdate, options) => {
-  spinner.stop(true);
-  visualizer(db, lastUpdate, options);
+	spinner.stop(true);
+	visualizer(db, lastUpdate, options);
 });
